@@ -38,6 +38,15 @@ app.use("/api/admin", adminRoutes);
 app.use("/api/demo", demoUsersRoutes);
 app.use("/api/settings", settingsRoutes);
 
+app.get("/ping", (req, res)=>{
+  try{
+    res.status(200).json({res: "pong"});
+  } catch(e){
+    console.log("Pong failed");
+    console.log(e);
+  }
+});
+
 
 
 app.listen(PORT, async () => {

@@ -75,7 +75,7 @@ router.post("/login", async (req, res) => {
       .cookie("token", token, {
         httpOnly: true, // cannot be accessed by JS on frontend
         secure: process.env.NODE_ENV === "production", // only send over HTTPS in production
-        sameSite: "lax", // CSRF protection
+        sameSite: "none", // CSRF protection
         maxAge: 60 * 60 * 1000, // 1 hour in milliseconds
       })
       .json({ message: "Login successful" });
@@ -94,7 +94,7 @@ router.post("/logout", (req, res) => {
       .cookie("token", "", {
         httpOnly: true,
         expires: new Date(0), // immediately expire
-        sameSite: "lax",
+        sameSite: "none",
         secure: process.env.NODE_ENV === "production",
       })
       .json({ message: "Logout successful" });
