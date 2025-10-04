@@ -13,7 +13,7 @@ The **MAVIX Backend** powers the platform, handling authentication, AI assistant
 ## 🔗 Related Repositories
 
 * **MAVIX Frontend** - [https://github.com/Anirudh-Singh-26/MAVIX_Frontend](https://github.com/Anirudh-Singh-26/MAVIX_Frontend)
-* **MAVIX Dashboard** - [https://github.com/Anirudh-Singh-26/Mavix-dashboard](https://github.com/Anirudh-Singh-26/Mavix-dashboard)
+* **MAVIX Dashboard** - [https://github.com/Anirudh-Singh-26/MAVIX_Dashboard](https://github.com/Anirudh-Singh-26/MAVIX_Dashboard)
 
 ---
 
