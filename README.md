@@ -6,7 +6,7 @@ The **MAVIX Backend** powers the platform, handling authentication, AI assistant
 
 ## 🔗 Live API Base URL
 
-`https://mavix-backend.vercel.app`
+`https://mavix-backend.onrender.com`
 
 ---
 
